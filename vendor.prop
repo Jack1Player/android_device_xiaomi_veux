@@ -1,2 +1,5 @@
 # Graphics
+persist.sys.sf.color_mode=9
+persist.sys.sf.native_mode=2
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
+
