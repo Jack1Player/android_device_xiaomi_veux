@@ -23,5 +23,8 @@ TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_veux
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := peux,veux
 
+# Properties
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+
 # Inherit from the proprietary version
 include vendor/xiaomi/veux/BoardConfigVendor.mk
